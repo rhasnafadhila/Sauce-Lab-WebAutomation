@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-15T11:21:46 WIB" name="RegressionTest-Suite" finished-at="2025-05-15T11:21:58 WIB" duration-ms="12063">
+    <groups>
+    </groups>
+    <test started-at="2025-05-15T11:21:46 WIB" name="RegressionTest" finished-at="2025-05-15T11:21:58 WIB" duration-ms="12063">
+      <class name="SauceDemoTest.About">
+        <test-method is-config="true" signature="configureSelenium()[pri:0, instance:SauceDemoTest.About@56528192]" started-at="2025-05-15T11:21:46 WIB" name="configureSelenium" finished-at="2025-05-15T11:21:48 WIB" duration-ms="1498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureSelenium -->
+        <test-method signature="userCanNavigateToAbout()[pri:0, instance:SauceDemoTest.About@56528192]" started-at="2025-05-15T11:21:48 WIB" name="userCanNavigateToAbout" finished-at="2025-05-15T11:21:56 WIB" duration-ms="8423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanNavigateToAbout -->
+        <test-method is-config="true" signature="tearDownSelenium()[pri:0, instance:SauceDemoTest.About@56528192]" started-at="2025-05-15T11:21:56 WIB" name="tearDownSelenium" finished-at="2025-05-15T11:21:56 WIB" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSelenium -->
+      </class> <!-- SauceDemoTest.About -->
+      <class name="SauceDemoTest.AddProductToCart">
+        <test-method is-config="true" signature="configureSelenium()[pri:0, instance:SauceDemoTest.AddProductToCart@794cb805]" started-at="2025-05-15T11:21:56 WIB" name="configureSelenium" finished-at="2025-05-15T11:21:57 WIB" duration-ms="1073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureSelenium -->
+        <test-method signature="userCanAddSauceLabsBackpack()[pri:1, instance:SauceDemoTest.AddProductToCart@794cb805]" started-at="2025-05-15T11:21:57 WIB" name="userCanAddSauceLabsBackpack" finished-at="2025-05-15T11:21:58 WIB" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddSauceLabsBackpack -->
+        <test-method signature="userCanAddSauceLabsFleeceJacket()[pri:2, instance:SauceDemoTest.AddProductToCart@794cb805]" started-at="2025-05-15T11:21:58 WIB" name="userCanAddSauceLabsFleeceJacket" finished-at="2025-05-15T11:21:58 WIB" duration-ms="254" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanAddSauceLabsFleeceJacket -->
+        <test-method is-config="true" signature="tearDownSelenium()[pri:0, instance:SauceDemoTest.AddProductToCart@794cb805]" started-at="2025-05-15T11:21:58 WIB" name="tearDownSelenium" finished-at="2025-05-15T11:21:58 WIB" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownSelenium -->
+      </class> <!-- SauceDemoTest.AddProductToCart -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- RegressionTest-Suite -->
+</testng-results>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="RegressionTest-Suite">
+
+
+	<test name="RegressionTest">
+		<classes>
+
+			<class name="SauceDemoTest.About" />
+			<class name="SauceDemoTest.AddProductToCart" />
+
+		</classes>
+	</test>
+</suite>
