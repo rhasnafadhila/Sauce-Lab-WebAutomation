@@ -17,11 +17,18 @@ public AboutAssertion(WebDriver driver) {
 	
 }
 
-public void verifyCanSeeSauceLabLabel() {
+public void verifyCanNavigateToAboutPage() {
 	base.waiting(this.labelSauceLab);
 	base.verifyElementVisible(this.labelSauceLab);
 	base.verifyElementVisible(this.buttonBookDemo);
 	base.verifyElementVisible(this.buttonSignUp);
+	base.verifyElementVisible(this.buttonRequestDemo);
+	base.verifyElementVisible(this.buttonTryForFree);
+	base.verifyElementVisible(this.buttonSignIn);
+
+
+	
+
 
 }
 }

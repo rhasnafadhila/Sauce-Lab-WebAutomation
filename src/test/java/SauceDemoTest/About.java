@@ -19,7 +19,7 @@ public class About extends Base {
 		actionLogin.LoginWithUsernamePassword("standard_user", "secret_sauce");
 		actionHome.clickHamburgerButton();
 		actionHome.clickAboutSidebar();
-		assertionAbout.verifyCanSeeSauceLabLabel();
+		assertionAbout.verifyCanNavigateToAboutPage();
 		
 		
 		

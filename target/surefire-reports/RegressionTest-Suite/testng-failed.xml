@@ -3,13 +3,6 @@
 <suite name="Failed suite [RegressionTest-Suite]" guice-stage="DEVELOPMENT" verbose="0">
   <test thread-count="5" name="RegressionTest(failed)" verbose="0">
     <classes>
-      <class name="SauceDemoTest.AddProductToCart">
-        <methods>
-          <include name="configureSelenium"/>
-          <include name="tearDownSelenium"/>
-          <include name="userCanAddSauceLabsFleeceJacket"/>
-        </methods>
-      </class> <!-- SauceDemoTest.AddProductToCart -->
       <class name="SauceDemoTest.About">
         <methods>
           <include name="configureSelenium"/>

@@ -14,4 +14,13 @@ public class AboutObject {
 	@FindBy(xpath = "//button[text()='Book a demo']")
 	public WebElement buttonBookDemo;
 
+	@FindBy(xpath = "//button[text()='Request a demo']")
+	public WebElement buttonRequestDemo;
+
+	@FindBy(xpath = "//button[text()='Try it free']")
+	public WebElement buttonTryForFree;
+
+	@FindBy(xpath = "//button[text()='Sign in']")
+	public WebElement buttonSignIn;
+
 }
